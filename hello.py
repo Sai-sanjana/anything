@@ -35,3 +35,12 @@ main
 X+y =68
 Good, completed.
 #time is 17:21 (by pavani)
+
+def add_list(list1):
+    sum=0
+    for i in list1:
+        sum=sum+i
+    return sum
+list1=[2,4,6,8,1,4,6,9]
+res=add_list(list1)
+print(res)
